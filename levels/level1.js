@@ -5,7 +5,6 @@
         <div class="card glass">
           <p class="eyebrow">🔐 Level 01 · Identity Glow</p>
           <h1>Who is the birthday queen?</h1>
-          <p class="subtext">Choose the name that makes this celebration feel complete.</p>
           <div class="options-grid">
             <button class="choice-btn" data-value="batman">Super Women</button>
             <button class="choice-btn" data-value="hira">Hira</button>
