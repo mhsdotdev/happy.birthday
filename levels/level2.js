@@ -4,8 +4,8 @@
       container.innerHTML = `
         <div class="card glass">
           <p class="eyebrow">🪩 Level 02 · Secret Wish</p>
-          <h1>Complete the birthday wish</h1>
-          <p class="subtext">Type the Band to reveal the next spark.</p>
+          <h1>Complete the Riddle</h1>
+          <p class="subtext">Type the Band name to reveal the next spark.</p>
           <p class="subtext" style="font-size: 0.95rem; color: #ffd9f2;">
             Hint: <em>"Dekho ye chaand taare, kehte hain ye bhi saare"</em>
           </p>
