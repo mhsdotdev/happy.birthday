@@ -11,17 +11,12 @@
       container.innerHTML = `
         <div class="card glass video-card">
           <p class="eyebrow">🎬 Level 03 · Birthday Reel</p>
-          <h1>A dreamy reel is ready to play</h1>
+          <h1>Yaha reels dekg lain 🤡</h1>
           <p class="subtext">Watch the clips, then unlock the final glow.</p>
           <div class="video-panel">
             <video id="birthdayVideo" class="video-player" controls preload="metadata" playsinline>
               <source src="${videos[0]}" type="video/mp4">
             </video>
-          </div>
-          <div class="badge-row">
-            <span class="badge">🌸 Soft pink highlights</span>
-            <span class="badge">🎇 Confetti light show</span>
-            <span class="badge">💌 A heartfelt message</span>
           </div>
           <button class="btn btn-primary" id="playReveal">Play the first clip</button>
         </div>
