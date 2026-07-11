@@ -9,7 +9,7 @@
           <h2>Your sparkle challenge is complete</h2>
           <p class="subtext">You unlocked every glow, every laugh, and every little burst of magic. This page was designed as a dreamy birthday surprise just for you.</p>
           <div class="link-row">
-            <a href="assets/letter/birthday.pdf" target="_blank" rel="noreferrer">Open the birthday letter</a>
+            <a href="assets/letter/bithday.pdf" target="_blank" rel="noreferrer">Open the birthday letter</a>
             <button class="btn btn-secondary" id="startOver">Play again</button>
           </div>
         </div>
