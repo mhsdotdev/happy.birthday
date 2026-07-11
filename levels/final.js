@@ -1,0 +1,29 @@
+(() => {
+  const module = {
+    render(container, helpers) {
+      container.innerHTML = `
+        <div class="card glass final-card">
+          <div class="final-emoji">🎂💖</div>
+          <p class="eyebrow">🏁 Celebration complete</p>
+          <h1>Happy Birthday, Hira!</h1>
+          <h2>Your sparkle challenge is complete</h2>
+          <p class="subtext">You unlocked every glow, every laugh, and every little burst of magic. This page was designed as a dreamy birthday surprise just for you.</p>
+          <div class="link-row">
+            <a href="assets/letter/birthday.pdf" target="_blank" rel="noreferrer">Open the birthday letter</a>
+            <button class="btn btn-secondary" id="startOver">Play again</button>
+          </div>
+        </div>
+      `;
+
+      container.querySelector("#startOver").addEventListener("click", () => {
+        helpers.restart();
+      });
+
+      helpers.launchConfetti(140);
+      helpers.launchFireworks(4);
+    }
+  };
+
+  window.GameLevels = window.GameLevels || {};
+  window.GameLevels.final = module;
+})();
